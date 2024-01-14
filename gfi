@@ -1,0 +1,170 @@
+-使用RoadToGlory转换器1.1版(RoadToGlory#9879)生成
+local boi = syn and syn . request or http and http . request or http _ request or fluxus and fluxus . request or request
+-实例:
+
+本地转换= {
+[" _ screen GUI "]= instance . new(" screen GUI ")；
+[" _ Frame "]= instance . new(" Frame ")；
+[" _ ui corner "]= instance . new(" ui corner ")；
+[" _ text label "]= instance . new(" text label ")；
+[" _ ui gradient "]= instance . new(" ui gradient ")；
+[" _ ui corner 1 "]= instance . new(" ui corner ")；
+[" _ ui stroke "]= instance . new(" ui stroke ")；
+[" _ Mesage "]= instance . new(" text label ")；
+[" _ UIGradient 1 "]= instance . new(" ui gradient ")；
+[" _ ui stroke 1 "]= instance . new(" ui stroke ")；
+[" _ ui corner 2 "]= instance . new(" ui corner ")；
+[" _ text label 1 "]= instance . new(" text label ")；
+[" _ UIGradient 2 "]= instance . new(" ui gradient ")；
+[" _ ui stroke 2 "]= instance . new(" ui stroke ")；
+[" _ ui corner 3 "]= instance . new(" ui corner ")；
+[" _ ui stroke 3 "]= instance . new(" ui stroke ")；
+[" _ Yes "]= instance . new(" text button ")；
+[" _ ui corner 4 "]= instance . new(" ui corner ")；
+[" _ ui stroke 4 "]= instance . new(" ui stroke ")；
+[" _ No "]= instance . new(" text button ")；
+[" _ ui corner 5 "]= instance . new(" ui corner ")；
+	["_UIStroke5"] = Instance.new("UIStroke");
+}
+
+-- Properties:
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(49.00000087916851, 49.00000087916851, 49.00000087916851)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(49.00000087916851, 49.00000087916851, 49.00000087916851)
+Converted["_Frame"].Position = UDim2.new(0.380052149, 0, 0.312286675, 0)
+Converted["_Frame"].Size = UDim2.new(0, 368, 0, 220)
+Converted["_Frame"].Parent = Converted["_ScreenGui"]
+
+Converted["_UICorner"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel"].Font = Enum.Font.Unknown
+Converted["_TextLabel"].RichText = true
+Converted["_TextLabel"].Text = "NOVA HUB"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].Position = UDim2.new(0.228260875, 0, 0.0409090891, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 23)
+Converted["_TextLabel"].Parent = Converted["_Frame"]
+
+Converted["_UIGradient"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(1.0000000591389835, 154.00000602006912, 255)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+}
+Converted["_UIGradient"].Parent = Converted["_TextLabel"]
+
+Converted["_UICorner1"].Parent = Converted["_TextLabel"]
+
+Converted["_UIStroke"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke"].Parent = Converted["_TextLabel"]
+
+Converted["_Mesage"].Font = Enum.Font.Unknown
+Converted["_Mesage"].Text = "Hey! Our discord account got disabled and we don't have access to it right now. Yes, I have a new account now! Also we have a new server please join!"
+Converted["_Mesage"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Mesage"].TextSize = 14
+Converted["_Mesage"].TextScaled = true
+Converted["_Mesage"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Mesage"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Mesage"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 45.00000111758709, 45.00000111758709)
+Converted["_Mesage"].BackgroundTransparency = 1
+Converted["_Mesage"].Position = UDim2.new(0.0625, 0, 0.177272737, 0)
+Converted["_Mesage"].Size = UDim2.new(0, 321, 0, 49)
+Converted["_Mesage"].Name = "Mesage"
+Converted["_Mesage"].Parent = Converted["_Frame"]
+
+Converted["_UIGradient1"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(1.0000000591389835, 154.00000602006912, 255)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+}
+Converted["_UIGradient1"].Parent = Converted["_Mesage"]
+
+Converted["_UIStroke1"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke1"].Parent = Converted["_Mesage"]
+
+Converted["_UICorner2"].Parent = Converted["_Mesage"]
+
+Converted["_TextLabel1"].Font = Enum.Font.Unknown
+Converted["_TextLabel1"].Text = "Do you want to join our server or not?"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+已转换["_TextLabel1"]。TextScaled = true
+已转换["_TextLabel1"]。TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(0, 230.00001668930054, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].Position = UDim2.new(0.0679347813, 0, 0.522727251, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 318, 0, 28)
+Converted["_TextLabel1"].Parent = Converted["_Frame"]
+
+Converted["_UIGradient2"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(1.0000000591389835, 154.00000602006912, 255)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+}
+Converted["_UIGradient2"].Parent = Converted["_TextLabel1"]
+
+Converted["_UIStroke2"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke2"].Parent = Converted["_TextLabel1"]
+
+Converted["_UICorner3"].Parent = Converted["_TextLabel1"]
+
+Converted["_UIStroke3"].Parent = Converted["_Frame"]
+
+Converted["_Yes"].Font = Enum.Font.Unknown
+Converted["_Yes"].Text = "Yes"
+Converted["_Yes"].TextColor3 = Color3.fromRGB(255, 255, 255)
+已转换["_Yes"]。TextSize = 14
+已转换[" _ Yes "]. background color 3 = color 3 . from RGB(45.00000111758709，45.000011758709，45.11758709)。
+已转换[" _ Yes "]。border color 3 = color 3 . from RGB(27.0000000290572643，42.00001296401024，53.000074993)。
+已转换["_Yes"]。Position = UDim2.new(0.225543484，0，0.695454538，0)
+已转换["_Yes"]。Size = UDim2.new(0，200，0，24)
+已转换["_Yes"]。Name = "是"
+已转换["_Yes"]。Parent = Converted["_Frame"]
+
+已转换["_UICorner4"]。Parent = Converted["_Yes"]
+
+已转换["_UIStroke4"]。ApplyStrokeMode = Enum。ApplyStrokeMode.Border
+已转换["_UIStroke4"]。Parent = Converted["_Yes"]
+
+已转换["_No"]。Font = Enum。字体。未知
+已转换["_No"]。Text = "否"
+converted[" _ No "]. text color 3 = color 3 . from RGB(255，255，255)。
+已转换["_No"]。TextSize = 14
+已转换[" _ No "]. background color 3 = color 3 . from RGB(45.00000111758709，45.000011758709，45.11758709)。
+已转换[" _ No "]。border color 3 = color 3 . from RGB(27.0000000290572643，42.00001296401024，53.00074993)。
+已转换["_No"]。Position = UDim2.new(0.225543484，0，0.840909123，0)
+已转换["_No"]。Size = UDim2.new(0，200，0，24)
+已转换["_No"]。Name = "No "
+已转换["_No"]。Parent = Converted["_Frame"]
+
+已转换["_UICorner5"]。Parent = Converted["_No"]
+
+已转换["_UIStroke5"]。ApplyStrokeMode = Enum。ApplyStrokeMode .边境
+已转换["_UIStroke5"].Parent = Converted["_No"]
+
+已转换[" _是"]。已激活：连接（函数()
+任务. spawn(函数()
+boi(
+		    {
+Url = "http://127.0.0.1:6463/rpc？v=1”，
+Method = "POST "，
+headers = {[" Content-Type "]= " application/JSON "，[" Origin "]= " https://discord。com " }，
+body = game:GetService(" HttpService "):JSONEncode(
+					{
+cmd = "邀请浏览器",
+args = {code = "q3jbmrgX76"}，
+nonce = game:get service(" HttpService "):生成guid(false)
+					}
+				)
+			}
+		)
+结束)
+已转换[" _ screen GUI "]:Destroy()
+结束)
+已转换["_No"].激活：连接(函数()
+已转换[" _ screen GUI "]:Destroy()
+结束)
